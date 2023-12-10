@@ -81,3 +81,6 @@ I've located the flag! It's important to mention that the flag name may differ, 
 Flag successfully captured!
 
 ## Post-Exploitation
+While I didn't achieve a reverse shell, the capability to execute shell commands on the target system via query parameters is essentially a form of reverse shell. This poses a significant security risk, as malicious actors could exploit this functionality for various nefarious activities.
+
+Despite my experience in Golang, the revelation of its native template engine is new to me. While I find it impressive, it becomes susceptible to security vulnerabilities, especially when the object passed to the template has methods that accept parameters. While this feature is interesting from a programming language perspective, I don't highly recommend its use due to the potential for abuse.
